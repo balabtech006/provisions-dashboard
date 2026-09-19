@@ -1,0 +1,17 @@
+{
+  "id": "sunday-veg-20260919-175431",
+  "kind": "sunday-veg-market",
+  "isTest": true,
+  "createdAt": "2026-09-19T17:54:31.410766+05:30",
+  "status": "cancelled",
+  "source": null,
+  "note": null,
+  "totalAmount": null,
+  "parsedTotal": null,
+  "whatsappSent": false,
+  "hasBills": false,
+  "bills": [],
+  "billItems": [],
+  "itemCount": 25,
+  "store": "Sunday vegetable market"
+}
