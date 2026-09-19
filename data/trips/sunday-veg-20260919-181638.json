@@ -1,0 +1,117 @@
+{
+  "id": "sunday-veg-20260919-181638",
+  "kind": "sunday-veg-market",
+  "isTest": true,
+  "createdAt": "2026-09-19T18:16:38.181117+05:30",
+  "status": "whatsapp-only-test",
+  "source": "checklist-paste",
+  "note": "User said testing — do not keep in ledger",
+  "totalAmount": 585.0,
+  "parsedTotal": null,
+  "whatsappSent": true,
+  "hasBills": true,
+  "bills": [
+    {
+      "type": "manual",
+      "store": "Sunday vegetable market (GPay sellers)",
+      "billNo": null,
+      "datetime": null,
+      "amount": 585.0,
+      "itemCount": 15
+    }
+  ],
+  "billItems": [
+    {
+      "name": "Coconut",
+      "qty": "",
+      "amount": 100.0,
+      "mapsTo": "Coconut"
+    },
+    {
+      "name": "Garlic",
+      "qty": "",
+      "amount": 20.0,
+      "mapsTo": "Garlic"
+    },
+    {
+      "name": "Ginger",
+      "qty": "",
+      "amount": 20.0,
+      "mapsTo": "Ginger"
+    },
+    {
+      "name": "Green chilli",
+      "qty": "",
+      "amount": 20.0,
+      "mapsTo": "Green chilli"
+    },
+    {
+      "name": "Karuvepelai",
+      "qty": "",
+      "amount": 10.0,
+      "mapsTo": "Karuvepelai"
+    },
+    {
+      "name": "Keerai",
+      "qty": "",
+      "amount": 20.0,
+      "mapsTo": "Keerai"
+    },
+    {
+      "name": "Kothamalli",
+      "qty": "",
+      "amount": 20.0,
+      "mapsTo": "Kothamalli"
+    },
+    {
+      "name": "Lemon",
+      "qty": "",
+      "amount": 20.0,
+      "mapsTo": "Lemon"
+    },
+    {
+      "name": "Potato",
+      "qty": "",
+      "amount": 25.0,
+      "mapsTo": "Potato"
+    },
+    {
+      "name": "Small onion",
+      "qty": "",
+      "amount": 150.0,
+      "mapsTo": "Small onion"
+    },
+    {
+      "name": "Tomato",
+      "qty": "",
+      "amount": 100.0,
+      "mapsTo": "Tomato"
+    },
+    {
+      "name": "Vegetable 1",
+      "qty": "",
+      "amount": 20.0,
+      "mapsTo": "Vegetable 1"
+    },
+    {
+      "name": "Vegetable 2",
+      "qty": "",
+      "amount": 20.0,
+      "mapsTo": "Vegetable 2"
+    },
+    {
+      "name": "Vegetable 3",
+      "qty": "",
+      "amount": 20.0,
+      "mapsTo": "Vegetable 3"
+    },
+    {
+      "name": "Vegetable 4",
+      "qty": "",
+      "amount": 20.0,
+      "mapsTo": "Vegetable 4"
+    }
+  ],
+  "itemCount": 15,
+  "store": "Sunday vegetable market (GPay sellers)"
+}
