@@ -1,0 +1,191 @@
+{
+  "id": "20260919-155405-8fdcce",
+  "kind": "normal",
+  "isTest": false,
+  "createdAt": "2026-09-19T15:54:05.696288+05:30",
+  "status": "logged",
+  "source": null,
+  "note": {
+    "notOnBills": [
+      "Tomato 1kg",
+      "Onion 1/2 kg",
+      "Kothamalli",
+      "Coconut 1"
+    ],
+    "listMismatches": [
+      "List said Sapadu rice 1kg; Selvanayaki bill has Chakkaravarthy 26kg rice ₹1900",
+      "List said Coffee powder Sunrise; bill has Bru Instant 100g",
+      "Two tea powders on Keerthi bill (Chakra Gold Care + Chakra Gold Elachi)"
+    ]
+  },
+  "totalAmount": 3765.0,
+  "parsedTotal": 3765.0,
+  "whatsappSent": true,
+  "hasBills": true,
+  "bills": [
+    {
+      "type": "photo",
+      "store": "Sri Selvanayaki Traders, Idikarai",
+      "billNo": "15349",
+      "datetime": "2026-09-19T14:36:00+05:30",
+      "amount": 2140.0,
+      "itemCount": 3
+    },
+    {
+      "type": "photo",
+      "store": "New Keerthi Super Market, Idigarai",
+      "billNo": "187",
+      "datetime": "2026-09-19T14:49:00+05:30",
+      "amount": 1625.0,
+      "itemCount": 21
+    }
+  ],
+  "billItems": [
+    {
+      "name": "Chakkaravarthy rice 26kg",
+      "qty": "1",
+      "amount": 1900.0,
+      "mapsTo": "Sapadu rice 1kg"
+    },
+    {
+      "name": "Ulluinthu 1kg",
+      "qty": "1kg",
+      "amount": 140.0,
+      "mapsTo": "Mulu ulunthu"
+    },
+    {
+      "name": "Fortune Atta 1kg",
+      "qty": "1kg",
+      "amount": 100.0,
+      "mapsTo": "Wheat flour 1kg"
+    },
+    {
+      "name": "Biscuit",
+      "qty": "1",
+      "amount": 50.0,
+      "mapsTo": null
+    },
+    {
+      "name": "Milka Rollcake",
+      "qty": "1",
+      "amount": 29.0,
+      "mapsTo": null
+    },
+    {
+      "name": "Sakthi Curd 500ml",
+      "qty": "1",
+      "amount": 40.0,
+      "mapsTo": "Curd packet"
+    },
+    {
+      "name": "Britannia Milk 150",
+      "qty": "1",
+      "amount": 29.0,
+      "mapsTo": null
+    },
+    {
+      "name": "Udhaya Krishna Ghee 100ml",
+      "qty": "1",
+      "amount": 104.0,
+      "mapsTo": "Ghee"
+    },
+    {
+      "name": "Jeeragam 250g",
+      "qty": "250g",
+      "amount": 95.0,
+      "mapsTo": "Jeeragam packet"
+    },
+    {
+      "name": "Cornflower 250g",
+      "qty": "250g",
+      "amount": 20.0,
+      "mapsTo": null
+    },
+    {
+      "name": "Sakthi Vathal Puli",
+      "qty": "1",
+      "amount": 24.0,
+      "mapsTo": null
+    },
+    {
+      "name": "Mundhiri 100g",
+      "qty": "100g",
+      "amount": 104.0,
+      "mapsTo": "Cashew"
+    },
+    {
+      "name": "Tata Chakra Gold Care 100g",
+      "qty": "100g",
+      "amount": 98.0,
+      "mapsTo": "Tea powder"
+    },
+    {
+      "name": "Bru Instant 100g",
+      "qty": "100g",
+      "amount": 255.0,
+      "mapsTo": "Coffee powder sunrise"
+    },
+    {
+      "name": "Fortune Sunlite Oil",
+      "qty": "2",
+      "amount": 350.0,
+      "mapsTo": "Oil"
+    },
+    {
+      "name": "Sakthi Bajji Maavu 500g",
+      "qty": "500g",
+      "amount": 75.0,
+      "mapsTo": "Bajji maavu"
+    },
+    {
+      "name": "Sevai",
+      "qty": "2",
+      "amount": 50.0,
+      "mapsTo": "Sevai"
+    },
+    {
+      "name": "Chakra Gold Elachi 100g",
+      "qty": "100g",
+      "amount": 93.0,
+      "mapsTo": "Tea powder"
+    },
+    {
+      "name": "Sakthi Idly Podi 100g",
+      "qty": "100g",
+      "amount": 32.0,
+      "mapsTo": "Idly podi"
+    },
+    {
+      "name": "JP Chilli Gopi 50g",
+      "qty": "50g",
+      "amount": 22.0,
+      "mapsTo": "JP chilli powder"
+    },
+    {
+      "name": "JP Chilly Chicken Masala 50g",
+      "qty": "50g",
+      "amount": 30.0,
+      "mapsTo": null
+    },
+    {
+      "name": "JP Chicken Masala",
+      "qty": "1",
+      "amount": 20.0,
+      "mapsTo": null
+    },
+    {
+      "name": "JP Biriyani Masala",
+      "qty": "1",
+      "amount": 30.0,
+      "mapsTo": null
+    },
+    {
+      "name": "Egg",
+      "qty": "12",
+      "amount": 75.0,
+      "mapsTo": "Egg 12"
+    }
+  ],
+  "itemCount": 19,
+  "store": "Sri Selvanayaki Traders, Idikarai, New Keerthi Super Market, Idigarai"
+}
