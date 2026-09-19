@@ -1,6 +1,11 @@
 name: Publish Pages assets
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/asset-payloads/**'
+      - '.github/workflows/publish-assets.yml'
 permissions:
   contents: write
 jobs:
