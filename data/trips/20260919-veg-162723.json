@@ -1,0 +1,51 @@
+{
+  "id": "20260919-veg-162723",
+  "kind": "normal",
+  "isTest": false,
+  "createdAt": "2026-09-19T16:27:23.739415+05:30",
+  "status": "logged",
+  "source": null,
+  "note": "Veg bill covering items missing from morning provision trip",
+  "totalAmount": 135.5,
+  "parsedTotal": null,
+  "whatsappSent": true,
+  "hasBills": true,
+  "bills": [
+    {
+      "type": "photo",
+      "store": "Keerthi Super Market, Idigarai",
+      "billNo": "41714",
+      "datetime": "2026-09-19T13:57:00+05:30",
+      "amount": 135.5,
+      "itemCount": 4
+    }
+  ],
+  "billItems": [
+    {
+      "name": "Big onion",
+      "qty": "0.675 kg",
+      "amount": 47.25,
+      "mapsTo": "Onion 1/2 kg"
+    },
+    {
+      "name": "Coconut",
+      "qty": "0.545 kg",
+      "amount": 35.43,
+      "mapsTo": "Coconut 1"
+    },
+    {
+      "name": "Tomato",
+      "qty": "1.120 kg",
+      "amount": 44.8,
+      "mapsTo": "Tomato 1kg"
+    },
+    {
+      "name": "Malli thalai (kothamalli)",
+      "qty": "0.065 kg",
+      "amount": 7.8,
+      "mapsTo": "Kothamalli"
+    }
+  ],
+  "itemCount": 4,
+  "store": "Keerthi Super Market, Idigarai"
+}
