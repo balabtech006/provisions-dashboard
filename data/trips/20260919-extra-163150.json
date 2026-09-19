@@ -1,0 +1,47 @@
+{
+  "id": "20260919-extra-163150",
+  "kind": "normal",
+  "isTest": false,
+  "createdAt": "2026-09-19T16:31:50.990361+05:30",
+  "status": "logged",
+  "source": null,
+  "note": "Extra purchases same day — formula + doll (manual)",
+  "totalAmount": 1330.0,
+  "parsedTotal": null,
+  "whatsappSent": true,
+  "hasBills": true,
+  "bills": [
+    {
+      "type": "manual",
+      "store": "Manual entry",
+      "billNo": null,
+      "datetime": null,
+      "amount": 980.0,
+      "itemCount": 1
+    },
+    {
+      "type": "manual",
+      "store": "Manual entry",
+      "billNo": null,
+      "datetime": null,
+      "amount": 350.0,
+      "itemCount": 1
+    }
+  ],
+  "billItems": [
+    {
+      "name": "Aptamil Gold 1 (Stage 1, 400g)",
+      "qty": "1",
+      "amount": 980.0,
+      "mapsTo": "Aptamil Stage 1"
+    },
+    {
+      "name": "Playing doll for Sinamika",
+      "qty": "1",
+      "amount": 350.0,
+      "mapsTo": "Playing doll"
+    }
+  ],
+  "itemCount": 2,
+  "store": "Manual entry"
+}
