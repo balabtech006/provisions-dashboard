@@ -1,0 +1,17 @@
+{
+  "id": "test-20260919-162404",
+  "kind": "normal",
+  "isTest": true,
+  "createdAt": "2026-09-19T16:24:04.856487+05:30",
+  "status": "cancelled",
+  "source": null,
+  "note": null,
+  "totalAmount": null,
+  "parsedTotal": null,
+  "whatsappSent": false,
+  "hasBills": false,
+  "bills": [],
+  "billItems": [],
+  "itemCount": 5,
+  "store": null
+}
