@@ -1,0 +1,40 @@
+name: Publish Pages assets
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Decode and publish assets to gh-pages
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/out/assets
+          python3 <<'PY'
+          import base64, gzip, pathlib
+          root = pathlib.Path('.github/asset-payloads')
+          css_b64 = (root / 'css_all.b64').read_text().strip()
+          js_parts = sorted(root.glob('js_*.b64'))
+          js_b64 = ''.join(p.read_text().strip() for p in js_parts)
+          pathlib.Path('/tmp/out/assets/index-Cmwdl9Nr.css').write_bytes(gzip.decompress(base64.b64decode(css_b64)))
+          pathlib.Path('/tmp/out/assets/index-K85hYXct.js').write_bytes(gzip.decompress(base64.b64decode(js_b64)))
+          print('decoded css', pathlib.Path('/tmp/out/assets/index-Cmwdl9Nr.css').stat().st_size)
+          print('decoded js', pathlib.Path('/tmp/out/assets/index-K85hYXct.js').stat().st_size)
+          PY
+          # Clone gh-pages and update assets
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git clone --depth 1 --branch gh-pages "https://x-access-token:${GH_TOKEN}@github.com/balabtech006/provisions-dashboard.git" /tmp/ghp
+          mkdir -p /tmp/ghp/assets
+          cp /tmp/out/assets/* /tmp/ghp/assets/
+          cd /tmp/ghp
+          git add assets/index-Cmwdl9Nr.css assets/index-K85hYXct.js
+          git status
+          git commit -m "Publish real dist CSS+JS assets via Actions" || echo "no changes"
+          git push origin gh-pages
